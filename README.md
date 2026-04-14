@@ -1,28 +1,18 @@
-# 📊 Análise Preditiva Socioeconômica: Pipeline de Ciência de Dados
+# 📊 Projeto de Análise Exploratória e Predição
 
-Este projeto demonstra um pipeline completo de Data Science, focado em transformar dados brutos em insights estratégicos e modelos preditivos. O objetivo principal é classificar categorias de renda com base em perfis demográficos e comportamentais.
+Este projeto analisa dados socioeconômicos para prever faixas de renda utilizando Machine Learning.
 
-## 🎯 Destaques do Projeto
-* **Feature Engineering:** Criação de variáveis personalizadas (renda por dependente) para aumentar o poder preditivo do modelo.
-* **Otimização de Modelos:** Implementação de Hyperparameter Tuning (Grid Search) para maximizar a acurácia do Random Forest.
-* **Visualização Estratégica:** Dashboards de correlação e distribuição para facilitar a tomada de decisão baseada em dados.
+## 🚀 Tecnologias
+* Python 3.14
+* Pandas & Numpy
+* Scikit-Learn (Random Forest)
+* Matplotlib & Seaborn
 
-## 🛠️ Tecnologias e Ferramentas
-* **Linguagem:** Python 3.14
-* **Manipulação de Dados:** Pandas, NumPy
-* **Visualização:** Matplotlib, Seaborn
-* **Machine Learning:** Scikit-learn (Random Forest, GridSearchCV)
-
-## 📈 Resultados Obtidos
-* **Acurácia:** Alcançou aproximadamente 85% na classificação de faixas de renda.
-* **Insights:** Identificação da escolaridade e horas de trabalho como os principais vetores de impacto na renda mensal.
-* **Automação:** Pipeline modular que permite a troca fácil do dataset para re-treinamento rápido.
-
-## 📂 Estrutura do Repositório
-* `src/`: Scripts modulares para processamento, visualização e modelagem.
-* `data/`: Armazenamento de datasets processados.
-* `outputs/`: Relatórios visuais e gráficos de importância de features.
-* `notebooks/`: Exploração interativa dos dados.
+## 📈 Como rodar
+1. Instale as dependências: `pip install -r requirements.txt`
+2. Execute a visualização: `python src/visualization.py`
+3. Execute o modelo: `python src/modeling.py`
+   
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
